@@ -1,0 +1,696 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Segoe UI Regular', sans-serif;
+}
+
+
+.contactUs-btn {
+    border: 2px solid #ED3944;
+    border-radius: 3px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+
+
+.custom-input {
+    border: none;
+    border-bottom: 2px solid #E8E8ED;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+    width: 95%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+}
+
+.contactUs-btnform {
+    border: 2px solid #ED3944;
+    border-radius: 3px;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background-color: #FF3366;
+    color: white;
+    margin-top: 35px;
+    width: 28vw;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #FF3366;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.custom-checkbox:checked {
+    background-color: #FF3366;
+}
+
+.custom-checkbox:focus {
+    outline: none;
+}
+
+.custom-label {
+    font-size: 14px;
+    margin-top: 25px;
+    width: 20vw;
+    color: #BBBDC5;
+    font-family: sans-serif;
+}
+
+.form {
+    width: 25vw;
+    padding: 35px;
+    background-color: #FFFFFF;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1),
+        4px 0 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+
+
+.slider {
+    position: relative;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hover-card {
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 45vh;
+
+}
+
+.hover-card2 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    height: 45vh;
+}
+
+.hover-card3 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card4 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card5 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card6 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card7 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card8 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card9 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card10 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card11 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+.hover-card12 {
+    position: absolute;
+    top: 0;
+    left: 50;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    height: 45vh;
+}
+
+
+
+
+.slider-image {
+    height: 53vh;
+    transition: transform 0.8s ease-in;
+}
+
+.slider-img2 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img3 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img4 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img5 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img6 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img7 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img8 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img9 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img10 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img11 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-img12 {
+    height: 52vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+.slider-img:hover .hover-card {
+    opacity: 1;
+}
+
+.slider-img2:hover  .hover-card2 {
+    opacity: 1;
+}
+
+.slider-img3:hover .hover-card3 {
+    opacity: 1;
+
+}
+
+.slider-img4:hover .hover-card4 {
+    opacity: 1;
+}
+
+    .slider-img5:hover  .hover-card5 {
+        opacity: 1;
+
+    }
+
+    .slider-img6:hover .hover-card6 {
+        opacity: 1;
+
+    }
+
+    .slider-img7:hover .hover-card7 {
+        opacity: 1;
+
+    }
+
+    .slider-img8:hover .hover-card8 {
+        opacity: 1;
+
+    }
+
+    .slider-img9:hover .hover-card9 {
+        opacity: 1;
+
+    }
+
+    .slider-img10:hover .hover-card10 {
+        opacity: 1;
+
+    }
+
+    .slider-img11:hover .hover-card11 {
+        opacity: 1;
+
+    }
+
+    .slider-img12:hover .hover-card12 {
+        opacity: 1;
+    }
+
+
+    .circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .slider-btn {
+        border-radius: 50%;
+        padding: 2px;
+        background-color: black;
+        transition: background-color 0.6s ease;
+        cursor: pointer;
+    }
+
+    .active,
+    .circle:hover {
+        border: 1px solid #f21010;
+    }
+
+    .active2,
+    .slider-btn:hover {
+        background-color: #EF2B3F;
+    }
+
+
+
+
+    .card1 {
+        width: 15vw;
+        cursor: pointer;
+    }
+
+    .card-img {
+        height: 55vh;
+        cursor: pointer;
+        width: 40vw;
+    }
+
+    .container {
+        height: 57vh;
+        gap: 1px;
+    }
+
+    .card2 {
+        width: 15vw;
+        height: 16vh;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: #f6f6f6;
+        transition: transform 0.8s ease-in-out;
+    }
+
+    .card2:hover {
+        background-color: #FF3147;
+        color: white;
+    }
+
+    .card3 {
+        background-color: #f9f8f8;
+        width: 11vw;
+        padding: 10px;
+        cursor: pointer;
+        transition: transform 0.9s ease-in-out;
+    }
+
+    .card3:hover {
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+            0 -4px 8px rgba(0, 0, 0, 0.1),
+            -4px 0 8px rgba(0, 0, 0, 0.1),
+            4px 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .cards3>div>img {
+        margin-bottom: -30px;
+    }
+
+    .cards3>div>h1 {
+        margin-bottom: -35px;
+    }
+
+    .card3>div>p {
+        font-family: sans-serif;
+        color: grey;
+        font-weight: bold;
+        margin-top: -15px;
+    }
+
+
+    .footer {
+        background-color: #EF2B3F;
+        height: 250px;
+        gap: 10px;
+    }
+
+    .footer img {
+        height: 6vh;
+        padding: 35px;
+
+    }
+
+    @media (max-width: 768px) {
+
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        .home-img {
+            height: 25vh;
+        }
+
+        .home-head {
+            font-size: larger;
+        }
+
+        .home-text {
+            margin-bottom: -50px;
+        }
+
+        .slider {
+            width: 60vw;
+            overflow: hidden;
+        }
+
+        .slider-image {
+            height: 20vh;
+        }
+        .hover-card  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card2  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card3  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card4  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card5  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card6  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card7  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card8  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card9  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card10  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card11  {
+            display: none;
+           opacity: 0;
+        }
+        .hover-card12  {
+            display: none;
+           opacity: 0;
+        }
+
+        .btn-container{
+            margin-top: -140px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card1 {
+            width: 25vw;
+            height: 15vh;
+            margin-bottom: 160px;
+            margin: 15px;
+        }
+
+        .card-img {
+            height: 20vh;
+            margin-left: 50px;
+
+        }
+
+        .goal-section-cardimg-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card2 {
+            flex: 1 1 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .card3-container {
+            flex-wrap: wrap;
+
+        }
+
+        .card3 {
+            flex: 1 1 100%;
+        }
+
+        .footer img {
+            padding: 5px;
+            height: 25px;
+        }
+
+        .footer {
+            margin: 0;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+
+        .footer-div {
+            margin: 0;
+            width: 80vh;
+            padding-left: 60px;
+        }
+
+
+        .feedback-section {
+
+            margin: 0;
+            margin-left: 2px;
+            padding: 0;
+            padding-left: 40px;
+            width: 70vw;
+
+        }
+
+        .growth-section {
+            margin: 0;
+            margin-left: 30px;
+            padding: 30px;
+            padding-left: 40px;
+            width: 60vw;
+        }
+
+        .goal-section {
+            padding-bottom: -200px;
+            margin: 0;
+            margin-left: 50px;
+            padding: 30px;
+            padding-left: 40px;
+
+        }
+
+        .whyus-section {
+            width: 80vw;
+            margin: 0;
+            padding: 30px;
+            padding-left: 0px;
+            padding-right: 0px;
+
+        }
+
+        .slider-section {
+            margin: 0;
+            padding: 30px;
+            padding-left: 70px;
+            padding-right: 0px;
+            margin-right: 0;
+        }
+
+        .landing-page {
+            margin: 0;
+            padding: 30px;
+            padding-left: 70px;
+            padding-right: 30px;
+
+
+
+        }
+
+    }
+
+
+
+    @media screen and (max-width: 768px) {
+        .container-form {
+            padding: 10px; 
+            width: 100%;
+        }
+    
+        .form {
+          width:60vw
+        }
+    
+        .custom-input {
+            width: 100%; 
+            margin-bottom: 10px; 
+        }
+    
+        .checkbox-container {
+            text-align: center;
+        }
+    
+        .contactUs-btnform {
+            width: 100%; 
+        }
+    }
